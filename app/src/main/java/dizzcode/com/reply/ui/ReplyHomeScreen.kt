@@ -47,7 +47,7 @@ fun ReplyHomeScreen(
     val navigationItemContentList = listOf(
         NavigationItemContent(
             mailboxType = MailboxType.Inbox,
-            icon = MailboxType.Inbox,
+            icon = Icons.Default.Inbox,
             text = stringResource(id = R.string.tab_inbox)
         ),
         NavigationItemContent(
