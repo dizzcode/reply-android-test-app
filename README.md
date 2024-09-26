@@ -27,15 +27,15 @@
 ##
 Permanent navigation drawer
 
-<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/permanent_navigation_drawer.png" width="300" height="200" />
+<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/permanent_navigation_drawer.png" width="320" height="240" />
 
 ##
 Navigation rail
 
-<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/navigation_rail.png" width="200" height="300" />
+<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/navigation_rail.png" width="240" height="320" />
 
 
 ##
 Adaptive content layout
 
-<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/adaptive_content_layout.png" width="300" height="200" />
+<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/adaptive_content_layout.png" width="320" height="240" />
