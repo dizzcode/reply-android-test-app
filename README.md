@@ -21,7 +21,7 @@
 ##
 ## View
 
-<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/img.png" width="200" height="400" />
+<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/img.png" width="320" height="480" />
 
 
 ##
