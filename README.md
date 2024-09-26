@@ -19,7 +19,8 @@
 - Adaptive content layout
 - testTag argument
 - Android Test
-- Use annotations to group test for different screen sizes
+- Use annotations to group test for different screen sizes  
+  (@TestCompactWidth | @TestMediumWidth | @TestExpandedWidth)
 
 ##
 ## View

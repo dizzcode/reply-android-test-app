@@ -29,6 +29,7 @@ class ReplyAppStateRestorationTest {
 
 
     @Test
+    @TestCompactWidth
     fun compactDevice_selectedEmailEmailRetained_afterConfigChange() {
         // Setup compact window
         val stateRestorationTester = StateRestorationTester(composeTestRule)
