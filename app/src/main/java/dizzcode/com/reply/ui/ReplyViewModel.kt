@@ -14,12 +14,13 @@ class ReplyViewModel : ViewModel() {
     val uiState: StateFlow<ReplyUiState> = _uiState
 
     init {
-        initializeUIState()
+        initUIState()
     }
 
-    private fun initializeUIState() {
+    private fun initUIState() {
         val mailboxes: Map<MailboxType, List<Email>> =
             LocalEmailsDataProvider.allEmails.groupBy { it.mailbox }
+
         _uiState.value =
             ReplyUiState(
                 mailboxes = mailboxes,

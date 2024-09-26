@@ -7,3 +7,11 @@
 ### What's inside >
 
 - Adaptive Layouts
+- Change screens without a navigation graph
+- Create custom back handler with onBackPressed()  
+  
+  BackHandler {  
+      onBackPressed()  
+  }  
+  
+- 

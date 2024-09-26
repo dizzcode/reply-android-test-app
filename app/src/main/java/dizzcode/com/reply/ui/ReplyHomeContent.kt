@@ -33,9 +33,11 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.tooling.preview.Preview
 import dizzcode.com.reply.R
 import dizzcode.com.reply.data.Email
 import dizzcode.com.reply.data.local.LocalAccountsDataProvider
+
 
 @Composable
 fun ReplyListOnlyContent(
