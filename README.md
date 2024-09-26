@@ -21,15 +21,21 @@
 ##
 ## View
 
-<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/img.png" width="400" height="800" />
+<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/img.png" width="200" height="400" />
 
 
 ##
 Permanent navigation drawer
 
-<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/permanent_navigation_drawer.png" width="600" height="400" />
+<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/permanent_navigation_drawer.png" width="300" height="200" />
 
 ##
 Navigation rail
 
-<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/navigation_rail.png" width="400" height="600" />
+<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/navigation_rail.png" width="200" height="300" />
+
+
+##
+Adaptive content layout
+
+<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/adaptive_content_layout.png" width="300" height="200" />
