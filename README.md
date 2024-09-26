@@ -39,3 +39,4 @@ Navigation rail
 Adaptive content layout
 
 <img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/adaptive_content_layout.png" width="480" height="320" />
+<img src="https://github.com/dizzcode/reply-android-test-app/blob/main/screenshots/adaptive_content_layout_single.png" width="320" height="480" />

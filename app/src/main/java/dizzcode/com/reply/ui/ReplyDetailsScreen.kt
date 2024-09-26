@@ -63,19 +63,22 @@ fun ReplyDetailsScreen(
                         replyUiState,
                         Modifier
                             .fillMaxWidth()
-                            .padding(bottom = dimensionResource(R.dimen.detail_topbar_padding_bottom))
+                            .padding(
+                                bottom = dimensionResource(R.dimen.detail_topbar_padding_bottom)
+                            )
                     )
                 }
-                    ReplyEmailDetailsCard(
-                        email = replyUiState.currentSelectedEmail,
-                        mailboxType = replyUiState.currentMailbox,
-                        isFullScreen = isFullScreen,
-                        modifier = if (isFullScreen) {
-                            Modifier.padding(horizontal = dimensionResource(R.dimen.detail_card_outer_padding_horizontal))
-                        } else {
-                            Modifier.padding(end = dimensionResource(R.dimen.detail_card_outer_padding_horizontal))
-                        }
-                    )
+
+                ReplyEmailDetailsCard(
+                    email = replyUiState.currentSelectedEmail,
+                    mailboxType = replyUiState.currentMailbox,
+                    isFullScreen = isFullScreen,
+                    modifier = if (isFullScreen) {
+                        Modifier.padding(horizontal = dimensionResource(R.dimen.detail_card_outer_padding_horizontal))
+                    } else {
+                        Modifier.padding(end = dimensionResource(R.dimen.detail_card_outer_padding_horizontal))
+                    }
+                )
 
             }
         }
@@ -155,13 +158,14 @@ private fun ReplyEmailDetailsCard(
                         bottom = dimensionResource(R.dimen.detail_expanded_subject_body_spacing)
                     ),
                 )
-                Text(
-                    text = stringResource(email.body),
-                    style = MaterialTheme.typography.bodyLarge,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-                DetailsScreenButtonBar(mailboxType, displayToast)
             }
+
+            Text(
+                text = stringResource(email.body),
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            DetailsScreenButtonBar(mailboxType, displayToast)
         }
     }
 }
