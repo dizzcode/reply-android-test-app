@@ -54,8 +54,12 @@ class MainActivity : ComponentActivity() {
 fun ReplyAppCompactPreview() {
     ReplyTheme {
         Surface {
+            //previews for different screen sizes
+            //WindowWidthSizeClass.Compact
+            //WindowWidthSizeClass.Medium
+            //WindowWidthSizeClass.Expanded
             ReplyApp(
-                windowSize = WindowWidthSizeClass.Compact,
+                windowSize = WindowWidthSizeClass.Expanded,
             )
         }
     }

@@ -10,6 +10,11 @@
   onBackPressed()  
   }
 
+### Previews for different screen sizes
+- WindowWidthSizeClass.Compact
+- WindowWidthSizeClass.Medium
+- WindowWidthSizeClass.Expanded
+
 ##
 ## View
 
