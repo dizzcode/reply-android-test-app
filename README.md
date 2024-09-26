@@ -15,6 +15,9 @@
 - WindowWidthSizeClass.Medium
 - WindowWidthSizeClass.Expanded
 
+  
+### Adaptive content layout
+
 ##
 ## View
 
