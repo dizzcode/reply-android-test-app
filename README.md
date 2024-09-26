@@ -16,7 +16,10 @@
 - WindowWidthSizeClass.Expanded
 
   
-### Adaptive content layout
+- Adaptive content layout
+- testTag argument
+- Android Test
+- Use annotations to group test for different screen sizes
 
 ##
 ## View
